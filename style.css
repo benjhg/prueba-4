@@ -50,19 +50,19 @@ li a {
 }
 #fondo{
     background-image:url("img/tibbers.jpg");
-    background-size: 100%;
+    background-size: 100€;
     padding: 23% 23% 5% 23%;
     background-repeat: no-repeat ;
 }
 #fila-1{
     text-align: center;
-    padding-top: -40%;
     margin: 0%;
     display: inline-flex;
 }
 #img-1,#img-2{
     border: .7em solid #dcdcdc;
     display: inline-flex;
+    margin: -5px;
 
 }
 #img-3{
@@ -76,7 +76,7 @@ li a {
 }
 #fila-2{
     text-align: center;
-    padding-top: -40%;
+
     margin: 0%;
     display: inline-flex;
     margin: 0%;
@@ -85,9 +85,17 @@ li a {
 #img-4,#img-5{
     border: .7em solid #dcdcdc;
     display: inline;
+    margin: -5px;
+    margin-top: -5em   02;
+}
+#fila-3{
+    
 }
 #img-6{
     text-align: center;
     margin-left: 25%;
     border: .7em solid #dcdcdc;
+    margin-top: 0em;
+   
+
 }
