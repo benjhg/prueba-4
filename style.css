@@ -61,13 +61,33 @@ li a {
     display: inline-flex;
 }
 #img-1,#img-2{
-    border: .7em solid #ff0000;
+    border: .7em solid #dcdcdc;
     display: inline-flex;
 
 }
 #img-3{
     justify-content: flex-end;
-    height: 10%;
-    width: 10%;
-    position: relative;
+    height: 2em;
+    width: 2em;
+    margin-top: 9em;
+    margin-left: 18em; ;
+
+    
+}
+#fila-2{
+    text-align: center;
+    padding-top: -40%;
+    margin: 0%;
+    display: inline-flex;
+    margin: 0%;
+
+}
+#img-4,#img-5{
+    border: .7em solid #dcdcdc;
+    display: inline;
+}
+#img-6{
+    text-align: center;
+    margin-left: 25%;
+    border: .7em solid #dcdcdc;
 }
