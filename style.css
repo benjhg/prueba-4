@@ -4,11 +4,29 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
 .nav{
     height: 100%;
     width: 100%;
 }
+.img_riot{
+    height: 4em;
+    width: 5em;
+    margin: -0.5em 0em -1em -2em;
+    padding: 0em 0em 0em 0em;
+}
+.logo-riot{
+    height: 4em;
+    width: 6em;
+    margin: -0.5em 1em -2em 1em;
+    padding: 0.1em 0em 0em 0em;
+}
+.vl {
+    border-left: .3em solid rgb(108, 108, 108);
+    height: 50px;
+    margin-left: .2em;
+    margin-right: 0em;
+    border-radius: 0%;
+  }
 ul {
     list-style-type: none;
     margin: 0%;
@@ -16,86 +34,196 @@ ul {
     padding-bottom: 1.5%;
     overflow: hidden;
     background-color: #000000;
-    
 }
-
 li {
     float: left;
 }
-
 li a {
-    display: block;
+    display: i;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 2em 2em;
     text-decoration: none;
+    font-family:"serif";
 }
-.sreach {
-    float: right;
-    background-color: #050e91;
-    padding-right: 10%;
-    margin-right:  10% ;
-    border-radius: 30%;
+.container {
+	position:absolute;
+	left: 80%;
+	top: 5%;
+	transform: translate(-50%,-50%);
+	padding: 0.625em;
+    background-color: #000000;
+}
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 2.5em;
+	width: 12em;
+	padding: 0em 3.125em;
+	color: rgb(2, 121, 111);
+	border-radius: 3.125em;
+	font-size: 1.25em;
+    background-color: #484848;
+    border: solid #484848;
+}
+.btn {
+	position: absolute;
+	right: 0em;
+	top: 0em;
+	width: 3em;
+	height: 0em;
+	background: #4d4d4d;
+	line-height: -2em;
+	border-radius: 50%;
+	text-align: center;
+	cursor:pointer;
+    margin-right: .7em;
+    margin-top: .68em;
+}
+.btn i {
+	font-size: 1em;
+	color: rgb(255, 255, 255);
+	line-height: 2.688em;
 }
 .titulo-1{
     text-align: center;
-    margin: 10%;
+    margin: 10% 10%  20% 25%;
+    margin-top: -5%;
     color: white;
     font-size: 400%;
-    text-transform:uppercase;
-    padding-bottom: 15%;
-
-   
-   
+    padding-bottom: 15%;            
+    font-family: fantasy;
 }
 #fondo{
     background-image:url("img/tibbers.jpg");
-    background-size: 100€;
-    padding: 23% 23% 5% 23%;
+    background-size: 100%;
+    padding: 24% 25% 6% 20%;
     background-repeat: no-repeat ;
 }
 #fila-1{
     text-align: center;
-    margin: 0%;
+    margin-left: -16%;
     display: inline-flex;
 }
 #img-1,#img-2{
     border: .7em solid #dcdcdc;
     display: inline-flex;
-    margin: -5px;
+    margin: -.313em;
 
 }
 #img-3{
     justify-content: flex-end;
     height: 2em;
     width: 2em;
-    margin-top: 9em;
-    margin-left: 18em; ;
-
-    
+    margin-top: 7em;
+    margin-left: 10em; 
 }
 #fila-2{
     text-align: center;
-
     margin: 0%;
     display: inline-flex;
-    margin: 0%;
-
 }
-#img-4,#img-5{
-    border: .7em solid #dcdcdc;
-    display: inline;
-    margin: -5px;
-    margin-top: -5em   02;
-}
-#fila-3{
-    
+#img-4 , #img-5{
+   border: .7em solid #dcdcdc;
+    margin-left: -8.9em;
+    margin-top:-1em;
+    margin-right: 8.5em;
 }
 #img-6{
     text-align: center;
-    margin-left: 25%;
+    margin-left: 10em;
     border: .7em solid #dcdcdc;
-    margin-top: 0em;
-   
+    margin-top: -.9em;
+}
+.riot-forge{
+    margin-top: -5em    ;
+}
+.titulo-2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 400%;
+    text-transform:uppercase; 
+    padding-top: -100em;
+    margin-top: -.9em;
+}
+#img-7{
+    background-image: url("img/riotfoge.jpg");
+    margin-left: 17em;
+    background-repeat: no-repeat;
+    padding: 22em 15em 2em 2em;
+}
+.parrafo-1{
+    background-color: red;
+    padding: 1em 1em 1em 1em;
+    width: 16em;
+    color: white;
+    font-size: x-small;
+}
+.tilulo-en-imagen{
+    color: rgb(255, 255, 255);
+}
+.texto-1{
+    color: #ffffff;
+    display: inline;
+    font-size: 80%;
+}
+#boton-2{
+    margin:4em 0em 8em 42em;
+}
+.boton_2 {
+    padding: .5em;
+    background-color: #ff0000;
+    color: #ffffff; 
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 3.125em;
+    font-size: 120%;
+}
+#buttons {
+    min-width: 1em;
+    display: flex;
+    margin-left: 66em;
+    margin-top: -5em;
+}  
+#buttons a {
+    text-decoration: none;
+    font-size: .7em;
+    width: 0em;
+    height: 0em;
+    line-height: 9em;
+    text-align: center;
+    background: #000000;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+  }
+  .banner{
+    height: 100%;
+    width: 100em;
+  }
+.img-puño-2{
+    height: 2.5em;
+    width: 2.5em;
+}
+#butons-banner{
+    padding: 1em 1em 4em 5em;
+    margin-bottom: -2em;
+    margin-left: 0em;
+}
 
+.txt-banner{
+    font-family:cursive;
+    color: #ffffff;
+    margin: 10em .1em 10em .9em;
+    padding: 7em .2em 10em .2em;   
+}
+hr{
+    border: .1em solid rgb(129, 129, 129);
+    color: #484848;
+    height: 0em;
+    width: 84em;
+    margin-top: -3em;
+    margin-right: 5em;
+    border-radius: 30%;
+    padding: -1em 1em -1em 1em;
 }
