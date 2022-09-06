@@ -22,7 +22,7 @@ body{
 }
 .vl {
     border-left: .3em solid rgb(108, 108, 108);
-    height: 50px;
+    height: 3.125em;
     margin-left: .2em;
     margin-right: 0em;
     border-radius: 0%;
@@ -102,7 +102,7 @@ input {
 }
 #fila-1{
     text-align: center;
-    margin-left: -16%;
+    margin-left: 1em;
     display: inline-flex;
 }
 #img-1,#img-2{
@@ -116,12 +116,13 @@ input {
     height: 2em;
     width: 2em;
     margin-top: 7em;
-    margin-left: 10em; 
+    margin-left: 20em; 
 }
 #fila-2{
-    text-align: center;
     margin: 0%;
     display: inline-flex;
+    margin-left: 9.5em;
+
 }
 #img-4 , #img-5{
    border: .7em solid #dcdcdc;
@@ -131,7 +132,7 @@ input {
 }
 #img-6{
     text-align: center;
-    margin-left: 10em;
+    margin-left: 18em;
     border: .7em solid #dcdcdc;
     margin-top: -.9em;
 }
@@ -148,7 +149,7 @@ input {
 }
 #img-7{
     background-image: url("img/riotfoge.jpg");
-    margin-left: 17em;
+    margin-left: 29em;
     background-repeat: no-repeat;
     padding: 22em 15em 2em 2em;
 }
@@ -168,7 +169,7 @@ input {
     font-size: 80%;
 }
 #boton-2{
-    margin:4em 0em 8em 42em;
+    margin:2em 45em 7em 54em;
 }
 .boton_2 {
     padding: .5em;
@@ -206,7 +207,7 @@ input {
     width: 2.5em;
 }
 #butons-banner{
-    padding: 1em 1em 4em 5em;
+    padding: 1em 1em 4em 20em;
     margin-bottom: -2em;
     margin-left: 0em;
 }
@@ -221,9 +222,9 @@ hr{
     border: .1em solid rgb(129, 129, 129);
     color: #484848;
     height: 0em;
-    width: 84em;
+    width: 90em;
     margin-top: -3em;
-    margin-right: 5em;
+    margin-right: 10em;
     border-radius: 30%;
     padding: -1em 1em -1em 1em;
 }
